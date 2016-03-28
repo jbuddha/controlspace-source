@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ctrl+Space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ctrl+Space">
+<meta property="og:url" content="http://controlspace.info/index.html">
+<meta property="og:site_name" content="Ctrl+Space">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ctrl+Space">
+<meta name="twitter:description">
+  
+    <link rel="alternate" href="/atom.xml" title="Ctrl+Space" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Ctrl+Space</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">The Intellisense Every Programmer Needs</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://controlspace.info"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-2016/03/patch-utility-for-perforce" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/patch-utility-for-perforce/" class="article-date">
+  <time datetime="2016-03-08T18:13:41.000Z" itemprop="datePublished">2016-03-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/patch-utility-for-perforce/">Open Source Patch Utility For Perforce</a>
+    </h1>
+  
+
+      </header>
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Perforce is a proprietary version controlling system. It has been around for more than 20 years. However, one glaring limitation always bugs the users. The inability to generate proper diff files.</p>
+<p>I can anticipate what is going on in your mind, we can generate a diff file by using the command line interface. <code>p4 diff</code> helps us generate a diff file. However if you ever had a misfortune of trying to generate patch files on regular basis. You would understand the pain. It works fine as long as you just modify existing files. However, if you have new files added to the workspace to be checked into to the depot, you quickly run out of luck. One more problem is that you can’t control the files included in the diff file based on change list. It gives you diff file for all the files that are modified. Of course, you can give individual file names, but you have to repeat it either one by one or by using common wildcard.<br>To overcome this, I have come up with a simple JavaFX utility.  Using this utility is as simple as it can get.</p>
+<p>Upon opening the application you will be presented with the login screen. Login with your regular perforce credentials, deselect Remember me, if you don’t want to store the data entered by you locally. By leaving the default value your credentials will be saved in the application cache so that you need not enter it again. If the login is successful, you will be taken to the next screen otherwise check the Log pane for error.<br>
+        
+          <p class="article-more-link">
+            <a href="/2016/03/patch-utility-for-perforce/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://controlspace.info/2016/03/patch-utility-for-perforce/" data-id="cimc91bpz000106y7vdshrk35" class="article-share-link">Share</a>
+      
+        <a href="http://controlspace.info/2016/03/patch-utility-for-perforce/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javafx/">javafx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/opensource/">opensource</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/perforce/">perforce</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-2016/03/hello-world-for-oracle-commerce" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/hello-world-for-oracle-commerce/" class="article-date">
+  <time datetime="2016-03-06T18:13:41.000Z" itemprop="datePublished">2016-03-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/hello-world-for-oracle-commerce/">Hello World for Oracle Commerce (ATG)</a>
+    </h1>
+  
+
+      </header>
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>There are so many concepts in Oracle Commerce (previously known as ATG), that makes coming up with Hello World program little difficult. Do you mean to create one JSP page and deploy it like commerce reference store? Do you want to create a component just to see in Dyn/Admin? Do you want to create a hello world repository? Depending on what you want to do, the approach to take will be different.<br>people_meaphor_options_gray<br>To work with Oracle Commerce, you don’t have to know about persisting data in database. If you approach Oracle Commerce programming with J2EE &amp; MVC experience, you may find it little difficult to cope with it unless you start with a fresh mind, because things are very different in this platform.</p>
+<p>Today, I will demonstrate how to create a simple component so that it can be viewed in Dyn/Admin. Let us assume that you are trying to create it in your own module instead of existing module like DAS or DAF. Follow the the steps shown below.</p>
+<h2 id="Step-1-Create-an-Eclipse-project"><a href="#Step-1-Create-an-Eclipse-project" class="headerlink" title="Step 1: Create an Eclipse project"></a>Step 1: Create an Eclipse project</h2><p>Create an Eclipse project and make sure you add all the necessary class files to the build path. Add classes.jar or DAS at the least.</p>
+        
+          <p class="article-more-link">
+            <a href="/2016/03/hello-world-for-oracle-commerce/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://controlspace.info/2016/03/hello-world-for-oracle-commerce/" data-id="cimc91bqk000206y7zdcx7auo" class="article-share-link">Share</a>
+      
+        <a href="http://controlspace.info/2016/03/hello-world-for-oracle-commerce/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/atg/">atg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oraclecommerce/">oraclecommerce</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/atg/" style="font-size: 10px;">atg</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/javafx/" style="font-size: 10px;">javafx</a> <a href="/tags/opensource/" style="font-size: 10px;">opensource</a> <a href="/tags/oraclecommerce/" style="font-size: 10px;">oraclecommerce</a> <a href="/tags/perforce/" style="font-size: 10px;">perforce</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/patch-utility-for-perforce/">Open Source Patch Utility For Perforce</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/hello-world-for-oracle-commerce/">Hello World for Oracle Commerce (ATG)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 Buddha Jyothiprasad<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'controlspace';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+<link rel="stylesheet" href="/css/mystyles.css">
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
