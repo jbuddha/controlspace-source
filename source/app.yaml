@@ -35,6 +35,7 @@ skip_files:
 - ^(scaffolds/.*)
 - ^(source/.*)
 - ^(themes/.*)
+- ^(.git/.*)
 - ^(.*/)?.DS_Store$
 
 libraries:
