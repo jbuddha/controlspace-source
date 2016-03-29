@@ -19,6 +19,8 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "hexo-tag-admonition": "^1.0.0"
+    "hexo-tag-admonition": "^1.0.0",
+    "mime-db": "^1.22.0",
+    "node-json-db": "^0.6.5"
   }
 }
