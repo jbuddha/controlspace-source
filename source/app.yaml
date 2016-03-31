@@ -18,9 +18,9 @@ handlers:
   static_files: atom.xml
   upload: atom.xml
 
-- url: /(.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|xml|js|min\.js))/?
+- url: /(.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|xml|txt|js|min\.js))/?
   static_files: \1
-  upload: (.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|xml|js|min.\js))
+  upload: (.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|xml|txt|js|min.\js))
 
 - url: /(.+[^/]$)
   static_files: \1/index.html
