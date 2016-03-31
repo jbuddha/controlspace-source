@@ -10,8 +10,11 @@
         <%- partial('post/title', {class_name: 'article-title'}) %>
       </header>
     <% } %>
-    
+
     <div class="article-entry" itemprop="articleBody">
+
+      <%- partial('post/icons') %>
+
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>
@@ -22,6 +25,7 @@
       <% } else { %>
         <%- post.content %>
       <% } %>
+      <%- partial('post/icons') %>
     </div>
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>

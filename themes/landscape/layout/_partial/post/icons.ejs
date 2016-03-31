@@ -1,0 +1,10 @@
+<% if (post.download || post.sourcecode){ %>
+  <header class="article-header">
+    <% if (post.download){ %>
+      <a href="<%- post.download %>"><i class="fa fa-cloud-download fa-5x"></i></a>
+    <% } %>
+    <% if (post.sourcecode){ %>
+        <a href="<%- post.sourcecode %>"><i class="fa fa-github fa-5x"></i></a>
+    <% } %>
+  </header>
+<% } %>
