@@ -1,8 +1,9 @@
 ---
 title: Hello World for Oracle Commerce (ATG)
-date: 2016-03-06 23:43:41
+date: 2016-03-06
 tags: ['atg', 'java', 'oraclecommerce']
 author: Buddha
+description: Oracle Commerce or ATG is an Ocean. Beginning it is so difficult. There are so many new things to learn before you can write a program that runs on this platform. This article helps you learn how to begin with creating new components in Oracle Commerce.
 ---
 There are so many concepts in Oracle Commerce (previously known as ATG), that makes coming up with Hello World program little difficult. Do you mean to create one JSP page and deploy it like commerce reference store? Do you want to create a component just to see in Dyn/Admin? Do you want to create a hello world repository? Depending on what you want to do, the approach to take will be different.
 ![Too many options to begin with](https://farm2.staticflickr.com/1633/25195316629_65c8162a37_n.jpg)
