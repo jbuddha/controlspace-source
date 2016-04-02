@@ -36,6 +36,12 @@
   border-color: #e74c3c;
 }
 
+.recents {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 #header-outer {
   height: initial;
 }
