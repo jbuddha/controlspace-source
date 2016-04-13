@@ -98,3 +98,7 @@ INFO  [stdout] /dyn/admin/nucleus//com/buddha/components/HelloWorldComponent Hel
 INFO  [stdout] /dyn/admin/nucleus//com/buddha/components/HelloWorldComponent Hello ATG Component! Stops now!
 ```
 This line is generated because of the sysout in our doStartService(); You can also give other methods that can be called through dyn/admin or interact with other components. However in production, avoid using System.out.println, instead use loggingDebug or loggingInfo. Best of Luck.
+
+----
+
+Here is an interesting non-technical blog post that I came across recently: [Reading a book vs Watching a Movie Adaption](https://unfurledpages.wordpress.com/2016/03/21/turning-pages-or-tuning-channels/) 
