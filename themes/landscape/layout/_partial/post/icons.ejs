@@ -5,10 +5,10 @@
     <% } %>
     <% if (post.sourcecode){ %>
       <% if (post.sourcetype == 'g'){ %>
-        <a href="<%- post.sourcecode %>"><i class="fa fa-github fa-5x" title="Fork at Github repository"></i></a>
+        <a href="<%- post.sourcecode %>"><i class="fa fa-github fa-5x" title="Source @Github"></i></a>
       <% } %>
       <% if (post.sourcetype == 'b'){ %>
-        <a href="<%- post.sourcecode %>"><i class="fa fa-bitbucket fa-5x" title="Source is available at this Bitbucket repository"></i></a>
+        <a href="<%- post.sourcecode %>"><i class="fa fa-bitbucket fa-5x" title="Source @Bitbucket"></i></a>
       <% } %>
     <% } %>
   </header>
