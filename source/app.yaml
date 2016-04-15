@@ -17,9 +17,17 @@ handlers:
   static_files: atom.xml
   upload: atom.xml
 
+- url: /tag/(.*)/?
+  static_files: tags/\1/index.html
+  upload: (.*)
+
 - url: /(.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|txt|xml|js|min).*)
   static_files: \1
   upload: (.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|txt|xml|js|min))
+
+- url: /(.+[^/])/index.html
+  static_files: \1/index.html
+  upload: (.*)
 
 - url: /(.+[^/]$)
   static_files: \1/index.html
