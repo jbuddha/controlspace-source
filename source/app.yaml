@@ -33,6 +33,10 @@ handlers:
   static_files: tags/\1/index.html
   upload: (.*)
 
+- url: /category/oracle\-commerce/$
+  static_files: tags/oraclecommerce/index.html
+  upload: (.*)
+
 - url: /category/(.*[^/]$)
   static_files: tags/\1/index.html
   upload: (.*)
