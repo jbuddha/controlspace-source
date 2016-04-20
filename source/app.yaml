@@ -9,6 +9,14 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /2016/03/.*/(.*[^/]$)
+  static_files: 2016/03/\1/index.html
+  upload: (.*)
+
+- url: /2016/03/.*/(.*)/$
+  static_files: 2016/03/\1/index.html
+  upload: (.*)
+
 - url: /sitemap(.xml)?
   static_files: sitemap.xml
   upload: sitemap.xml
@@ -17,7 +25,11 @@ handlers:
   static_files: atom.xml
   upload: atom.xml
 
-- url: /tag/(.*)/?
+- url: /tag/(.*[^/]$)
+  static_files: tags/\1/index.html
+  upload: (.*)
+
+- url: /tag/(.*)/$
   static_files: tags/\1/index.html
   upload: (.*)
 
