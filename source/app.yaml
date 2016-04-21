@@ -9,6 +9,14 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /([0-9][0-9][0-9][0-9]\/[0-9][0-9])$
+  static_files: archives/\1/index.html
+  upload: (.*)
+
+- url: /([0-9][0-9][0-9][0-9]\/[0-9][0-9])/$
+  static_files: archives/\1/index.html
+  upload: (.*)
+
 - url: /2016/03/.*/(.*[^/]$)
   static_files: 2016/03/\1/index.html
   upload: (.*)
