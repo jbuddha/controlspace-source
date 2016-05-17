@@ -5,7 +5,8 @@ tags: ['problems', 'algorithms', 'java', 'solution', 'datastructures']
 author: Buddha
 description: Breadth first Traversal in a binary tree is a famous problem related to binary trees tree
 ---
-![Binary Tree Example](https://farm8.staticflickr.com/7466/26975009532_3a91b7f090_o.png)
+
+![Binary Tree Example](https://farm8.staticflickr.com/7466/26975009532_9fac6b112d_o.png)
 ## The Problem
 
 Imagine you have a binary tree where as shown above. You may be aware of InOrder traversal where you follow a scheme of visiting left subtree and then visit root node and finally visit right subtree. With small variations in order same is done in pre-order as well as post-order traversal. How do you do a breadth first traversal? It is slightly more tricky. Doing it non-recursively is even more difficult at first sight. Let me first explain what is breadthfirst traversal.
