@@ -84,4 +84,4 @@ We have to import both alta css from oraclejet and font-awesome. Importing can b
 
 ----
 
-Here is an interesting non-technical blog post that I came across recently, if you are interested in such: [An escape or a possibility?](https://unfurledpages.wordpress.com/2016/06/01/an-escape-or-a-possibilty/)
+If you are interested in non technical reading: [An escape or a possibility?](https://unfurledpages.wordpress.com/2016/06/01/an-escape-or-a-possibilty/)
