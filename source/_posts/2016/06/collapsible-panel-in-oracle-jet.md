@@ -7,8 +7,7 @@ description: If you have ever wanted to develop a div/panel that can be minimize
 ---
 Before we begin, let me show you the final output we are going to get. Click Run Pen button if you want to see the collapsible panel in action
 
-<p data-height="265" data-theme-id="0" data-slug-hash="PzGZMW" data-default-tab="result" data-user="jbuddha" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/jbuddha/pen/PzGZMW/">Collapsible and Expandable Panels</a> by Buddha (<a href="http://codepen.io/jbuddha">@jbuddha</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+{% codepen PzGZMW 'Collapsible and Expandable Panels' result wait 265 %}
 
 The panel can be minimized or maximized by clicking on the arrow button. It can also be removed completely by clicking close button. How do we achieve this? I have used KnockoutJS, OracleJET and jQuery to achieve the result. RequireJS is also used but only to get the required libraries from CDN. However, OracleJet is predomantly is used for styling alone. Rest of the bindings can be achieved by regular KnockoutJS and jQuery. Read forward to learn how to get the above result.
  <!-- more -->
@@ -77,8 +76,8 @@ The other function is `self.close` which is bound to click handler of close icon
 
 I didn't include other configuration information that is required for oraclejet and other libraries in the above code snippet. Please refer the codepen's javascript resources given for configuration related code. However, if you are creating a seperate viewModel for the panel alone, no other code is necessary.
 
-## The Style
-We have to import both alta css from oraclejet and font-awesome. Importing can be using `link` meta tag in html or `@import` in css directly. Extra styling information is used when user hovers over title bar icons. For this a class `hoverable` is created that just darkens the background with some opacity on hover. Refer css section of the CodePen to see how it is done.
+{% codepen PzGZMW 'Collapsible and Expandable Panels' html %}
+
 
 ----
 
