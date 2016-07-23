@@ -49,3 +49,98 @@
 #banner {
   background: center #000;
 }
+
+.binary-tree-arrow {
+  z-index: 0; 
+  cursor: inherit; 
+  stroke: rgb(29, 27, 25); 
+  stroke-width: 2px; 
+  stroke-opacity: 1; 
+  stroke-dasharray: none; 
+  stroke-linecap: round; 
+  stroke-linejoin: round;
+}
+
+.binary-tree-circle {
+  z-index: 1; 
+  cursor: inherit; 
+  stroke: rgb(29, 27, 25); 
+  stroke-width: 3px; 
+  stroke-opacity: 1; 
+  stroke-dasharray: none; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: rgb(204, 221, 255); 
+  fill-opacity: 1;
+}
+
+.binary-tree-circle+text {
+  z-index: 2; 
+  cursor: inherit; 
+  font-family: Arial; 
+  fill: black; 
+  font-size: 16.40px; 
+  font-weight: normal; 
+  font-style: normal; 
+  opacity: 1; 
+  text-anchor: middle;
+}
+
+.binary-tree-circle-highlight {
+  z-index: 1; 
+  cursor: inherit; 
+  stroke: rgb(29, 27, 25); 
+  stroke-width: 3px; 
+  stroke-opacity: 1; 
+  stroke-dasharray: none; 
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  fill: rgb(100, 100, 255); 
+  fill-opacity: 1;
+  -webkit-animation-name: binary-tree-highlight;
+  -webkit-animation-duration: 2s;
+  animation-name: binary-tree-highlight;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.binary-tree-circle-highlight+text {
+  z-index: 2; 
+  cursor: inherit; 
+  font-family: Arial; 
+  fill: white; 
+  font-size: 16.40px; 
+  font-weight: normal; 
+  font-style: normal; 
+  opacity: 1; 
+  text-anchor: middle;
+  -webkit-animation-name: binary-tree-highlight-text;
+  -webkit-animation-duration: 2s;
+  animation-name: binary-tree-highlight-text;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes binary-tree-highlight {
+    from {fill: rgb(100, 100, 255);}
+    to {fill: rgb(204, 221, 255);}
+}
+
+@keyframes binary-tree-highlight {
+    from {fill: rgb(100, 100, 255);}
+    to {fill: rgb(204, 221, 255);}
+}
+
+@-webkit-keyframes binary-tree-highlight-text {
+    from {fill: white;}
+    to {fill: black;}
+}
+
+@keyframes binary-tree-highlight-text {
+    from {fill: white;}
+    to {fill: black;}
+}
