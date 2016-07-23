@@ -94,22 +94,11 @@
   fill: white; 
 }
 
-.-dull+text {
-  opacity: 0.25
-}
-
-.-dull {
-  opacity: 0.25
-}
-
-
-
 .-blink {
   -webkit-animation-name: binary-tree-highlight;
   -webkit-animation-duration: 2s;
   animation-name: binary-tree-highlight;
   animation-duration: 2s;
-  animation-delay: 1s;
   animation-iteration-count: 1;
 }
 
@@ -118,15 +107,18 @@
   -webkit-animation-duration: 2s;
   animation-name: binary-tree-highlight-text;
   animation-duration: 1s;
-  animation-delay: 1s;
   animation-iteration-count: 1;
 }
 
-.repeat {
-  animation-iteration-count: infinite;
+.dull+text {
+  opacity: 0.25
 }
 
-.repeat+text {
+.dull {
+  opacity: 0.25
+}
+
+.repeat {
   animation-iteration-count: infinite;
 }
 
@@ -134,16 +126,48 @@
   animation-direction: alternate;
 }
 
-.alternate+text {
-  animation-direction: alternate;
-}
-
 .fast {
   animation-duration: .5s;
 }
 
-.fast+text {
-  animation-duration: .5s;
+.delay1 {
+    animation-delay: 1s;
+}
+
+.delay2 {
+    animation-delay: 2s;
+}
+
+.delay3 {
+    animation-delay: 3s;
+}
+
+.delay4 {
+    animation-delay: 4s;
+}
+
+.delay5 {
+    animation-delay: 5s;
+}
+
+.delay6 {
+    animation-delay: 6s;
+}
+
+.delay7 {
+    animation-delay: 7s;
+}
+
+.delay8 {
+    animation-delay: 8s;
+}
+
+.delay9 {
+    animation-delay: 9s;
+}
+
+.delay10 {
+    animation-delay: 10s;
 }
 
 @-webkit-keyframes binary-tree-highlight {
