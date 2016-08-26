@@ -14,6 +14,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- author
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -28,7 +29,7 @@ show_count: true
 # Miscellaneous
 google_analytics: UA-75818367-1
 favicon: /favicon.ico
-twitter:
-google_plus:
-fb_admins:
+twitter: prbuddha
+google_plus: JyothiprasadBuddha
+fb_admins: 
 fb_app_id:
